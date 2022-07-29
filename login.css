@@ -1,0 +1,154 @@
+body{
+                            background-color:#f0f2f5;
+                            margin: 0;
+                            font-family: Arial, Helvetica, sans-serif;
+                    }
+                    .fb-body{
+                            justify-content: center;
+                            display: flex;
+
+                    }
+                    .fbbx{
+                            width: 100%;
+                            margin: 40px 30px;
+                            height: auto;
+
+                    }
+                    .fbbx-title{
+                            font-size: 22px;
+                            text-align: center;
+                    }
+                    .fbbx-logo{
+                            height: 110px;
+                            display: block;
+                            margin: 0 auto;
+                            width: auto;
+                            padding: 0;
+                    }
+                    .fbbx1{
+                            background-color: #fff;
+                            box-shadow: 0 0 13px 0 silver;
+                            border-radius: 5px;
+                            width: 70%;
+
+                    }
+                    form{
+                            text-align: center; 
+                            padding: px;
+                            margin-top: 30px;
+                            padding: 30px;
+                           
+                    }
+                    input{
+                           
+                            font-size: 15px;
+                            padding: 10px;
+                            border-radius: 4px;
+                            margin: 13px 0;
+                            border: thin solid silver;
+                            transition: 0.5s;
+                            width: 94%;
+                        
+                    }
+                    input:hover{
+                            border: 1px solid #1877f2;
+                            transition: 0.5s;
+
+                    }
+                    input,button{
+                            display: block;
+                            outline: none;
+                            letter-spacing: 0.05em;
+                            
+                    }
+                    button{
+                        text-align: center;
+                        width: 100%;
+                        margin: 10px 0;
+                        padding: 10px;
+                        background-color:#1877f2 ;
+                        color: #fff;
+                        border-radius: 6px;
+                        border: none;
+                        font-weight: 700;
+                    }
+
+                    ::placeholder{
+                            color: silver;
+                    }
+                    .fb-hire{
+                            font-size: 15px;
+                            margin: 0;
+                            padding: 0 10px 20px 10px;
+                            font-weight: 100;
+                            text-align: center;
+                    }
+                    h3{
+                            text-align: left;
+                            margin: 30px 0 0 20px;
+                            font-weight: 400;
+                            font-size: 15px;
+                            
+                    }
+                    footer{
+                            position: fixed;
+                            background-color: #fff;
+                            bottom: 0;
+                            padding: 10px;
+                            width: 100%;
+                            display:none;
+                    }
+                @media screen  and (max-width:860px){
+                    .fb-body{
+                            
+                            display: block;
+
+                    }
+                    .fbbx{
+                            width: auto;
+                            margin: 10px;
+                                            height: auto;
+                            display: block;
+
+                    }
+                    .fbbx-title{
+                            font-size: 16px;
+                            margin: 0 20px ;
+                            text-align: center;
+                            font-weight:400 ;
+                    }
+                    .fbbx-logo{
+                            height: 50px;
+                            display: block;
+                            margin: 0 auto;
+                            width: auto;
+                            padding: 0;
+                    }
+                    .fbbx1{
+                            background-color: #fff;
+                            box-shadow: 0 0 13px 0 silver;
+                            border-radius: 5px;
+                            margin: 0 30px;
+    
+
+                    }
+                }
+                .mea{
+      background:#fff;
+      text-align:center ;
+      position:fixed ;
+      bottom:0;
+      width:100%;
+      padding:18px;
+      box-shadow:0 0 10px 0 gray;
+      font-weight:600;
+      text-decoration:none;
+      color:red;
+}
+.pic{
+       height:30px;
+       width:30px;
+       position:absolute ;
+       margin-left:-30px;
+       margin-top:-6px;
+}
